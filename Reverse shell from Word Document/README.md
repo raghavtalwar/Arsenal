@@ -1,7 +1,7 @@
 # Reverse-Shell-From-Word-Document
-This is a repository containing code to generate powershell payload to access PC'S remotely. 
+This is a repository containing code to generate powershell payload 
 
-In this we use up the payloadGenerate.py file to generate powershell payload for us. 
+The payloadGenerate.py file to generate powershell payload for us. 
 
 PayloadForMacro.py file develops the payload in the format to be feeded as a Word Macro.
 
